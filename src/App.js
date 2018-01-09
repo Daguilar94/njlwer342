@@ -25,7 +25,6 @@ class App extends Component {
           </ul>
            <form onSubmit={this.addTask}>
              <input type="text" id="new-task" placeholder="Ingresa una tarea y oprime Enter" value={this.state.newTask} onChange={this.updateInput} />
-             <input type='submit' vlaue='submit' />
            </form>
         </div>
       </div>
